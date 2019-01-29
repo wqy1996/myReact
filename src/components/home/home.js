@@ -3,7 +3,7 @@ import React, { Component } from "react"
 class Home extends Component {
   render() {
     return (
-      <div>ddddd44444</div>
+      <div>  7777777</div>
     )
   }
 }

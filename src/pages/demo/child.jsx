@@ -2,7 +2,7 @@ import React, { Component } from "react"
 class Children extends Component {
   render() {
     return (
-      <div>this.children.jsx</div>
+      <div>this.child.jsx</div>
     )
   }
 }

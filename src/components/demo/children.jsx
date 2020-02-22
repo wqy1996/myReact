@@ -1,3 +1,4 @@
+import "./test.less"
 import React, { Component } from "react"
 import { Button } from 'antd-mobile';
 class Children extends Component {

@@ -1,0 +1,46 @@
+div.header {
+	border          : 1px solid red;
+	width           : 100%;
+	display         : flex;
+	background-color: lightness(#fff, #000);
+	justify-content : space-evenly;
+}
+
+.left {
+	height     : 60px;
+	line-height: 58px;
+
+	a {
+		color    : skyblue;
+		font-size: 20px;
+	}
+}
+
+ul {
+	margin-bottom: 0;
+}
+
+.middle {
+	position: relative;
+	li {
+		float: left;
+		
+		a {
+			color: #999	;
+			font-size: 18px;
+			padding  : 15px 30px;
+			display  : inline-block;
+		}
+	}
+
+	li:hover {
+		background-color: #ccc;
+	}
+
+	div.line {
+		width     : 96px;
+		height    : 2px;
+		background: #1890ff;
+		position: absolute;
+	}
+}

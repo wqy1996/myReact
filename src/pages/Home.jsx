@@ -1,18 +1,20 @@
 import React, { Component } from "react"
-import Header from "../components/Header"
+import Header from "../components/header/Header"
 class Home extends Component {
-	constructor(props){
+	constructor(props) {
 		super(props)
 		this.state = {
-			arr: [1,2,3,4,5]
+			arr: [1, 2, 3, 4, 5]
 		}
 	}
 	render() {
 		return (
 			<div >
-				<Header/>
-				{/* {this.state.arr.map(item=><p key={item}>{item}</p>)} */}
-      </div>
+				<Header />
+				<div className="content">
+
+				</div>
+			</div>
 		)
 	}
 }

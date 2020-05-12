@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
 import './Header.less'
+
 class Header extends Component {
 	render() {
 		return (
@@ -31,8 +32,11 @@ class Header extends Component {
 					<div className="line"></div>
 				</div>
 				<div className="right">
+					<img src={require('@/assets/imgs/search.png')} alt="" />
 					<input type="text" />
+					<button type="button">
 					搜索
+					</button>
 				</div>
 			</div>
 		);

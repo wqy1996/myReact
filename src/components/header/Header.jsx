@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
-import './Header.less'
+import style from './Header.less'
 
 class Header extends Component {
 	render() {
 		return (
-			<div className="header">
-				<div className="left">
+			<div className={style.header}>
+				<div className={style.left}>
 					<Link to="/home" title="这是我的故事">
 						雨记
 					</Link>
 				</div>
-				<div className="middle">
-					<ul className="clear">
+				<div className={style.middle}>
+					<ul className={style.clear}>
 						<li>
 							<Link to='/home' >
 								技术
@@ -29,9 +29,9 @@ class Header extends Component {
 							</Link>
 						</li>
 					</ul>
-					<div className="line"></div>
+					<div className={style.line}></div>
 				</div>
-				<div className="right">
+				<div className={style.right}>
 					<img src={require('@/assets/imgs/search.png')} alt="" />
 					<input type="text" />
 					<button type="button">

@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import React from 'react'
-import Home from "@/pages/Home"
+import Home from "../pages/Home"
 import Error404 from "../pages/error404.jsx"
 import Detail from "@/pages/Detail"
 
